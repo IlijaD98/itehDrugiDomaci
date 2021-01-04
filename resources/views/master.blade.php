@@ -21,10 +21,44 @@
     {{View::make('footer')}}
 </body>
 <style>
+
     .custom-login{
         height:500px;
         padding-top:100px;
     }
-    
+    img.slider-img{
+        height:400px !important;
+
+    }
+    .custom-product{
+        height:600px;
+    }
+    .naslov3{
+        color:#080808;
+    }
+    .pasus3{
+        color:#080808;
+    }
+    .trending-image{
+        height:100px;
+
+    }
+    .trending-item{
+        float:left;
+        width:25%;
+    }
+    .trending-wrapper{
+        margin:30px;
+    }
+    .detail-img{
+        height:200px;
+    }
+    .trending-wrapper h1{
+        font-size:40px;
+        text-align: center;
+    }
+    .search-box{
+        width:500px !important;
+    }
 </style>
 </html>
